@@ -1,3 +1,3 @@
 # Portfolio for design course
 
-This repository is mainly for the design course.
+This repository is for the design course.

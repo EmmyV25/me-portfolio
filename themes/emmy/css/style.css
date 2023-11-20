@@ -22,6 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #F3EEEA;
 }
 
 .main {
@@ -91,7 +92,7 @@ p {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 4px solid #F3EEEA;
+    border-top: 4px solid #d1c6b2;
     background-color: #EBE3D5;
     color: #B0A695;
     padding: 2rem 4rem;
