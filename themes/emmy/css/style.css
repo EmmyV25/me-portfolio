@@ -43,7 +43,8 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 2em 2em 0;
+    padding-left: 25px;
 }
 
 @media (max-width: 767px) {
@@ -54,7 +55,7 @@ body {
         min-width: 50%;
     }
     .logo {
-        max-width: 30%;
+        max-width: 20%;
     }
 }
 
@@ -127,7 +128,6 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
-    padding-left: 20%;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */

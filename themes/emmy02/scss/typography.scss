@@ -1,0 +1,25 @@
+p{
+    font-family: $main-font;
+}
+
+body {
+    font-family: $main-font;
+    line-height: 1.4;
+    color: #444;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}

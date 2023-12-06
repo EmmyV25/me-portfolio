@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* Main */
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 1.4rem;
+    font-size: 1.1em;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid #9b9282;
+    background-color: #d7cabb;
+    color: #9b9282;
+    padding: 2rem 4rem;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
